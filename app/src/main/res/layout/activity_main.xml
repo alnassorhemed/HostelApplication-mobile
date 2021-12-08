@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EDE7F6"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:text="Hostel Application Information"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/colorAccent"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Student Name"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="20sp"
+            android:textColor="#004D40"/>
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Date"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="20sp"
+            android:textColor="#004D40"/>
+        <EditText
+            android:id="@+id/Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Hostel Block Name"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="20sp"
+            android:textColor="#004D40"/>
+        <EditText
+            android:id="@+id/Blocks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Specific Room No"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#004D40"/>
+        <EditText
+            android:id="@+id/Room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Current Residence"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#004D40"/>
+        <EditText
+            android:id="@+id/Reside"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Physical Disability!"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#004D40"/>
+        <EditText
+            android:id="@+id/disable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tenancy Period"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#004D40"/>
+        <EditText
+            android:id="@+id/period"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <Button
+            android:id="@+id/Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:onClick="SaveData"
+            android:padding="15sp"
+            android:text="Submit Application"
+            android:textSize="20sp"
+            android:background="@drawable/btn"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+</ScrollView>
